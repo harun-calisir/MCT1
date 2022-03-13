@@ -1,0 +1,194 @@
+.h1 {
+  font-family: 'Sansita Swashed', cursive;
+}
+
+.container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container-fluid a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.container-fluid a:hover {
+  color: #5463FF;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 25px;
+  font-family: 'BhuTuka Expanded One', cursive;
+}
+
+.mainScreen {
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainScreen p {
+  margin-bottom: 0;
+  font-family: 'Smooch Sans', sans-serif;
+  font-weight: bolder;
+}
+
+.mainScreen input {
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border-top: 0px;
+  border-left: 0px;
+  border-color: #5463FF;
+}
+
+.mainScreen .calcBtn {
+  border-radius: 5px;
+  border-top: none;
+  border-left: none;
+  color: white;
+  background-color: #5463FF;
+  width: 100px;
+}
+
+.mainScreen .calcBtn:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.output {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+.output .re {
+  border-radius: 5px;
+  border-top: none;
+  border-left: none;
+  color: white;
+  background-color: #5463FF;
+  width: 150px;
+  margin-top: 50px;
+}
+
+.output .re:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.output .aylik {
+  margin-top: 50px;
+}
+
+.output p {
+  font-family: 'Smooch Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+form {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-left: 50px;
+}
+
+form label {
+  margin-top: 35px;
+}
+
+form button {
+  margin-top: 35px;
+  border-radius: 5px;
+  border-top: none;
+  border-left: none;
+  color: white;
+  background-color: #5463FF;
+}
+
+form button:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+form #messageBox {
+  height: 150px;
+  width: 300px;
+  text-align: unset;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  background-color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer i {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=style.css.map */

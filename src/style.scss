@@ -1,0 +1,138 @@
+.h1 {
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    a {
+        margin-right: 20px;
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        color: #5463FF;
+    }
+}
+
+h3 {
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'BhuTuka Expanded One', cursive;
+}
+.mainScreen {
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+        margin-bottom: 0;
+        font-family: 'Smooch Sans', sans-serif;
+        font-weight: bolder;
+    }
+    input {
+        margin-bottom:30px;
+        border-radius:5px;
+        border-top: 0px;
+        border-left: 0px;
+        
+        border-color: #5463FF;
+    }
+    .calcBtn {
+        border-radius: 5px;
+        border-top: none;
+        border-left: none;
+        color: white;
+        background-color: #5463FF;
+        width: 100px;
+    }
+    .calcBtn:hover {
+        background-color: whitesmoke;
+        color: black;
+    }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.output {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    .re{
+        border-radius: 5px;
+        border-top: none;
+        border-left: none;
+        color: white;
+        background-color: #5463FF;
+        width: 150px;
+        margin-top: 50px;
+    }
+    .re:hover {
+        background-color: whitesmoke;
+        color: black;
+    }
+    .aylik {
+        margin-top: 50px;
+    }
+    p {
+        font-family: 'Smooch Sans', sans-serif;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+}
+
+form {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 50px;
+    label {
+        margin-top: 35px;
+    }
+    button {
+        margin-top: 35px;
+        border-radius: 5px;
+        border-top: none;
+        border-left: none;
+        color: white;
+        background-color: #5463FF;
+    }
+    button:hover {
+        background-color: whitesmoke;
+        color: black;
+    }
+    #messageBox {
+        height: 150px;
+        width: 300px;
+        text-align: unset;
+    }
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+    background-color: whitesmoke;
+    display: flex;
+    justify-content:center;
+    
+    i {
+        margin-top: 10px;
+    }
+    
+}
